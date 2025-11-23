@@ -2,6 +2,5 @@ services:
   - type: web
     runtime: docker
     name: odoo-service
-    repo: https://github.com/sisocobacho/odoo/tree/18.0
     dockerfilePath: ./Dockerfile
     plan: free
